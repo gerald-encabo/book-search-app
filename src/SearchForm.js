@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Search = (props) =>{   {/* List of input and button that will be rendered and display */}
+const Search = (props) =>{   
     return (
         <div className="Search">
             <form onSubmit={props.searchBook}>

@@ -4,7 +4,7 @@ import BookCard from './BookCard';
 const BookList = (props) => {
     return (
         <div className="BookGroup">
-           <div className="book-list">    {/* Passing a value from object state array into the BookCard Component through use props and maps function */}
+           <div className="book-list">   
            { 
                props.books.map((books, count) => {
                 return <BookCard
