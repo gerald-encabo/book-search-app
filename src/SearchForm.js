@@ -5,9 +5,9 @@ const Search = (props) =>{
         <div className="Search">
             <form onSubmit={props.searchBook}>
                <div className="InputGroup">
-               <input type="text" onChange={props.handleSearch} placeholder="Enter Title" required/>
-               <button type="submit">Search</button>
-               <select defaultValue="Sort" onChange={props.handleSort}>
+               <input type="text" onChange={props.handleSearch} placeholder="Enter Title" alt="Book search input" required/>
+               <button type="submit" alt="Submit button">Search</button >
+               <select defaultValue="Sort" onChange={props.handleSort} alt="Sort button for date and title">
                    <option disabled value="Sort">Sort</option>
                    <option value="Newest">Newest</option>
                    <option value="Oldest">Oldest</option>

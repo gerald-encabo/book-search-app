@@ -3,7 +3,7 @@ import React from 'react'
 const BookCard = (props) => {
     return (
         <div className="book-card">
-            <img src={props.image} alt="thumbnail"/>  
+            <img src={props.image} alt="Book thumbnail cover"/>  
               <div className="desc">                 
                 <p><b>Title:</b> {props.title}</p>           
                 <p><b>Author:</b> {props.author}</p>  
