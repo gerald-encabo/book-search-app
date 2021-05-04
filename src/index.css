@@ -55,21 +55,21 @@
 .book-card {
   width:250px;
   height:100%;
-  margin: 30px 30px 0px 30px;
-  border: 2px solid #F0F0F0;
+  margin: 30px 30px 0px 40px;
   display: inline-table;
-  border-radius: 10px 10px 10px 10px;
+  border: 2px solid #F0F0F0;
+}
+.book-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 .desc {
   width:250px;
   height:100%;
-  padding-left: 7px;
-  border-radius: 0px 0px 10px 10px;
+  padding-left: 10px;
 }
 img {
   width: 250px;
   height: 250px;
-  border-radius: 10px 10px 0px 0px;
   object-fit: contain;
   background-color:#E8E8E8;
 }
