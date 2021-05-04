@@ -7,7 +7,7 @@ const BookCard = (props) => {
               <div className="desc">                 
                 <p><b>Title:</b> {props.title}</p>           
                 <p><b>Author:</b> {props.author}</p>  
-                <p><b>Published Date:</b>    
+                <p><b>Published Date: </b>    
                     {
                         props.published === '0000'  
                           ? 'Not Available' 
