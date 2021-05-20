@@ -2,7 +2,7 @@
   "name": "book-search-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://geraldencabo.github.io/booksearch-reactapp",
+  "homepage": "http://geraldencabo.github.io/book-search-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
