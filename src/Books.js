@@ -2,6 +2,7 @@ import { Component } from 'react';
 import Search from './SearchForm';
 import BookList from './BookList';
 import superagent from 'superagent';
+import React, { useState, useEffect } from 'react';
 
 class Books extends Component{
 
@@ -48,7 +49,7 @@ class Books extends Component{
     return replacedData;
   }
 
-  render(){          
+  render(){   
    const sortedBooks = this.state.books.sort((a, b) => {
       if(this.state.sort === 'Newest'){
          return parseInt(b.volumeInfo.publishedDate.substring(0,4)) - parseInt(a.volumeInfo.publishedDate.substring(0,4));
