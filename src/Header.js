@@ -4,7 +4,7 @@ const Header = () => {
 
     return (
       <div className="Header">
-          <h1>Book Search Tool - Google Books API</h1>
+          <h1>Book Search App - Google Books API</h1>
       </div >
     )
 }

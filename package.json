@@ -2,7 +2,7 @@
   "name": "google-book-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://geraldencabo.github.io/google-book-api",
+  "homepage": "http://geraldencabo.github.io/booksearch-reactapp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
