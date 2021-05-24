@@ -1,12 +1,12 @@
 import React from 'react';
 import BookCard from './BookCard';
 
-const BookList = (props) => {
+const BookList = (sortedBooks) => {
     return (
         <div className="BookGroup">
            <div className="book-list">   
            { 
-               props.books.map((books, count) => {
+               sortedBooks.books.map((books, count) => {
                 return <BookCard
                            key={count} 
                            image={books.volumeInfo.imageLinks.thumbnail}

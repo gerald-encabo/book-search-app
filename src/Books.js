@@ -1,6 +1,6 @@
-import { Component } from 'react';
-import Search from './SearchForm';
+import React, { Component, useState } from 'react';
 import BookList from './BookList';
+import Navbar from './Navbar';
 import superagent from 'superagent';
 
 class Books extends Component{
@@ -47,8 +47,9 @@ class Books extends Component{
 
     return replacedData;
   }
-
+ 
   render(){   
+
    const sortedBooks = this.state.books.sort((a, b) => {
       if(this.state.sort === 'Newest'){
          return parseInt(b.volumeInfo.publishedDate.substring(0,4)) - parseInt(a.volumeInfo.publishedDate.substring(0,4));
@@ -64,9 +65,10 @@ class Books extends Component{
       }
    })
 
-    return (  
+   return (  
+       
       <div>
-         <Search searchBook={this.searchBook} handleSearch={this.handleSearch} handleSort={this.handleSort} handleSubmit={this.handleSubmit}/>    
+         <Navbar searchBook={this.searchBook} handleSearch={this.handleSearch} handleSort={this.handleSort} handleSubmit={this.handleSubmit}/>    
          <BookList books={sortedBooks}/>
       </div>
     );
