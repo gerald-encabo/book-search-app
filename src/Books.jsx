@@ -59,6 +59,7 @@ class Books extends Component{
       } else if(this.state.sort === 'Z-A'){
          return b.volumeInfo.title.localeCompare(a.volumeInfo.title);
       }
+      return true;
    })
 
    return (  

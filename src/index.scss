@@ -2,7 +2,7 @@
 @import "./Colors.scss";
 
 * {
-  margin: auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Quicksand";
@@ -14,7 +14,7 @@
   background-color: $firstColor;
 
     .book-list {
-      margin: auto;
+      margin: 0 auto;
       width: 90%;
       background-color: $firstColor;
       display: grid;
@@ -26,32 +26,34 @@
     .book-card {
       width: 300px;
       height: 100%;
-      margin: 20px 20px 0px 20px;
+      margin-top: 20px;
       display: inline-table;
-      background-color: $thirdColor;
-      color: $seventhColor;
-      border-radius: 8px;
+      background-color: $seventhColor;
+      color: $thirdColor;
+      border-radius: 2px;
+      border: 1px solid rgb(211,211,211);
+      overflow: hidden;
     
         &:hover {
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
         a {
           text-decoration: none;
           color: $thirdColor;
         }
         .desc {
+          margin-top: -5px;
           width: 300px;
           padding: 5%;
-          text-align: center;
-          font-size: 1.1rem;
+          font-size: 0.9rem;
         }
         img {
           width: 300px;
           height: 270px;
           object-fit: scale-down;
-          border-top-left-radius: 8px;
-          border-top-right-radius: 8px;
-          background-image: linear-gradient(to bottom right, #404040 0%, #C0C0C0 100%);
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          background-color: #ecebec;
         }
     }
 }

@@ -6,4 +6,4 @@ Link:
 https://geraldencabo.github.io/book-search-app/
 
 Main Page Display:
-![Book Search App (1)](https://user-images.githubusercontent.com/15988182/120129413-e87f2f00-c191-11eb-9a95-b35168988256.png)
+![Book Search App(1)](https://user-images.githubusercontent.com/15988182/120497457-6c047000-c38c-11eb-841e-539cc119d4f9.png)
